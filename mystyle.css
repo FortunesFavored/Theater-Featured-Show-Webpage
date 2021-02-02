@@ -1,0 +1,116 @@
+body{
+    background: rgb(220, 220, 220);
+    font-family: Roboto;
+}
+
+.navbar-parent{
+    display:flex;
+    min-height: 50px;
+    background-color: black;
+    flex-flow: row wrap;
+}
+
+.navbar-child1{
+    display:flex;
+    width: 300px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.navbar-child2{
+    display:flex;
+    flex-flow: row wrap;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;margin-right: 50px;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.featuredheader{
+    width: 100%;
+    height: auto;
+}
+
+.overlay-center{
+    color: white;
+    font-size: 48px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.showtimes{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.month-dropdown{
+    width: 50%; 
+    font-size:24px;
+}
+
+.event{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.event-info{
+    margin-left: 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
+    align-items: left;
+}
+
+.readmore{
+    margin-left: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.readmore > a{
+    border-radius: 10px;
+    background:orangered;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer{
+    padding-bottom: 50px;
+    display: flex;
+    flex-flow: row;
+    background-color: black;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
